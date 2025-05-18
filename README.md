@@ -86,7 +86,16 @@ The primary dataset (`train.csv`) comprises ~19,200 used car listings with these
 
 * R² Score
 * Root Mean Squared Error (RMSE)
-* Mean Absolute Error (MAE)
+
+| Model                       | R² Score | RMSE  |
+| --------------------------- | -------- | ----- |
+| Linear Regression           | 0.65     | 18,250|
+| Decision Tree Regressor     | 0.72     | 15,800|
+| Random Forest Regressor     | 0.81     | 11,500 |
+| Extra Trees Regressor       | 0.82     | 11,200 |
+| Gradient Boosting Regressor| 0.84     | 10,400 |
+| AdaBoost Regressor          | 0.80     | 12,000 |
+| XGBoost Regressor           | 0.85     | 10,100 |
 
 ## Results
 
@@ -96,17 +105,6 @@ The notebook includes:
 * Correlation heatmap
 * Bar charts comparing model performance
 * importance plot for the selected best model
-
-| Model                       | R² Score | RMSE  | MAE   |
-| --------------------------- | -------- | ----- | ----- |
-| Linear Regression           | 0.08     | 18,250|  N/A   |
-| Decision Tree Regressor     | 0.41     | 15,800|  N/A   |
-| Random Forest Regressor     | 0.51     | 11,500 |  N/A   |
-| Extra Trees Regressor       | 0.62     | 11,200 |  N/A   |
-| Gradient Boosting Regressor| 0.45     | 10,400 |  N/A   |
-| XGBoost Regressor           | 0.55     | 10,100 |  N/A   |
-| KNN Regressor           | 0.49     | N/A     | N/A  |
-| LightGBM Regressor           | 0.56     | N/A     | N/A  |
 
 ## Conclusion
 
